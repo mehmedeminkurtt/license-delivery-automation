@@ -1,0 +1,18 @@
+{
+  "sender": {
+    "id": "SENDER_ID",
+    "username": "SENDER_USERNAME"
+  },
+  "services": {
+    "router": "http://localhost:3000/webhook"
+  },
+  "license": {
+    "exePath": "./license_creator.exe",
+    "productName": "Unlimited License",
+    "outputFile": "license.lic"
+  },
+  "app": {
+    "listenPort": 3001,
+    "allowedAdvertTitle": "Personalized Unlimited License"
+  }
+}
