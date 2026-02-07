@@ -137,3 +137,26 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Local config (do not commit real values)
+config.json
+
+# Generated license files
+*.lic
+*.key
+
+# External tools (local only)
+license_creator.exe
+
+# Node
+node_modules
+
+# Local runtime config (do not commit)
+config.json
+
+# Generated license files
+*.lic
+*.key
+
+# External tools (local only)
+license_creator.exe
